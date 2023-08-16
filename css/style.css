@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+@import url(/css/header.css);
+@import url(/css/hero.css);
+@import url(/css/about.css);
+@import url(/css/products.css);
+@import url(/css/offices.css);
+@import url(/css/news.css);
+@import url(/css/footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+
+.container {
+    margin: 0 130px 80px 130px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #607CE6;
+}
+
+h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--dark, #333);
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}

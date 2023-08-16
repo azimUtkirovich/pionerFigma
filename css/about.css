@@ -1,0 +1,30 @@
+.aboutSection {
+    padding-top: 80px;
+}
+
+
+.aboutHeader {
+    margin-bottom: 32px;    
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutBox {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.aboutBox .image img {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.aboutBox .text p {
+    margin-bottom: 24px;
+}

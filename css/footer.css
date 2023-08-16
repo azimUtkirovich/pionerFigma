@@ -1,0 +1,45 @@
+footer {
+    background-color: var(--dark, #333);
+    padding: 56px 130px 24px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.footerText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerIcon img {
+    color: #fff;
+}
+
+.footerList a,
+.copywright p {
+    color: #fff;
+}
+
+.copywright p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%
+}
+
+.footerList {
+    display: flex;
+    gap: 80px;
+}
+
+.footerList ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.copywright {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+}
